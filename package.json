@@ -1,0 +1,22 @@
+{
+  "name": "nodemailer",
+  "version": "1.0.0",
+  "description": "Send email with Nodemailer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Nathan",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mailgen": "^2.0.28",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
